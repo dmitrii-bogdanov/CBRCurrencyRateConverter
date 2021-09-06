@@ -2,7 +2,7 @@ package bogdanov.currency;
 
 import java.io.IOException;
 
-public abstract class Reader<T> {
+public interface Reader<T> {
 
-    public abstract T getRates() throws IOException;
+    T getRates() throws IOException;
 }

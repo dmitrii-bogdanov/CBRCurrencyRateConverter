@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
 import java.net.URL;
 
 @RequiredArgsConstructor
-public class CbrReader extends Reader<RubleRates> {
+public class CbrReader implements Reader<RubleRates> {
 
     private final URL url;
 
